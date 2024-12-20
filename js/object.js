@@ -321,17 +321,17 @@
 
 // Створіть повідомлення в якому буде вказано кількісь зірок і рейтинг,
 // використовуючи цикл
-const hotel = {
-    stars: 0.1,
-    popularity: 52,
-    name: "Happy House"
-}
-let message = "";
-for (const key in hotel){
+// const hotel = {
+//     stars: 0.1,
+//     popularity: 52,
+//     name: "Happy House"
+// }
+// let message = "";
+// for (const key in hotel){
     // message = alert(`Зірки: ${hotel.stars}, рейтинг: ${hotel.popularity}, назва: ${hotel.name}`)
-message += `${key} - ${hotel[key]}. `
-}
-console.log(message)
+// message += `${key} - ${hotel[key]}. `
+// }
+// console.log(message)
 
 // const products = {
 //     aplle: 15,
@@ -344,7 +344,7 @@ console.log(message)
 // }
 // console.log(total)
 
-console.dir(Object())
+// console.dir(Object())
 // const Object = {
 //     keys() {
 
@@ -354,32 +354,32 @@ console.dir(Object())
 
 //Object.keys() даний метод витягує всі ключі з обʼєкту та робить їх масивом
 
-const user = {
-    name: "Yan",
-    age: 3,
+// const user = {
+//     name: "Yan",
+//     age: 3,
 
-}
+// }
 
-const userKeys = Object.keys(user)
-console.log(userKeys)
+// const userKeys = Object.keys(user)
+// console.log(userKeys)
 
-const userValues = Object.values(user)
-console.log(userValues)
+// const userValues = Object.values(user)
+// console.log(userValues)
 
-const userEntries = Object.entries(user)
-console.log(userEntries)
+// const userEntries = Object.entries(user)
+// console.log(userEntries)
 
 
-const products = {
-    aplle: 15,
-    banana: 30,
-    pineaplle: 60
-}
-const productsValues = Object.values(products)
-console.log(productsValue)
-let sum = 0;
-for (let productValue of productsValues) {
-    sum += productValue
-    }
-console.log(sum)
+// const products = {
+//     aplle: 15,
+//     banana: 30,
+//     pineaplle: 60
+// }
+// const productsValues = Object.values(products)
+// console.log(productsValue)
+// let sum = 0;
+// for (let productValue of productsValues) {
+//     sum += productValue
+//     }
+// console.log(sum)
 
